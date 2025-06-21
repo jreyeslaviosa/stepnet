@@ -3,6 +3,13 @@
 
 **stepnet** is a modular, scalable, and networked stepper motor control system built with ESP32 microcontrollers. Designed for kinetic sculptures, interactive installations, robotics, and precise motion control, each node can be independently configured, discovered, and commanded over OSC.
 
+Inspired by how **Art-Net lighting nodes** operate, `stepnet` follows a similar philosophy:
+- Each motor controller is an addressable network node with its own static IP and ID
+- When connected, nodes automatically announce themselves
+- A central controller (like TouchDesigner/ openframeworks/ blender) can discover and interact with them in real time
+
+This design ensures scalability, clarity, and flexibility across large installations—just like Art-Net fixtures in lighting control systems.
+
 ---
 
 ## ✨ Features
@@ -101,6 +108,8 @@ stepnet/
 - [ ] Automatic motor calibration routine
 - [ ] QR code per node for setup and IP scan
 - [ ] Dynamic TouchDesigner interface patch
+- [ ] Dynamic openframeworks interface patch
+- [ ] blender example
 
 ---
 
