@@ -61,6 +61,22 @@
 
 ---
 
+## 🎛 openframeworks Integration (example)
+
+- Auto-detect `/announce` OSC messages
+- Dynamic UI panel per motor
+- Live jog sliders, home/zero buttons
+
+---
+
+## 🎛 blender Integration (example)
+
+- Auto-detect `/announce` OSC messages
+- Dynamic UI panel per motor
+- Live jog sliders, home/zero buttons
+
+---
+
 ## 📁 Project Structure
 
 ```
