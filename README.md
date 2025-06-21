@@ -1,4 +1,6 @@
 
+### JUST AND IDEA ###
+
 # stepnet ( not the final name )
 
 **stepnet** is a modular, scalable, and networked stepper motor control system built with ESP32 microcontrollers. Designed for kinetic sculptures, interactive installations, robotics, and precise motion control, each node can be independently configured, discovered, and commanded over OSC.
